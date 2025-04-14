@@ -66,4 +66,4 @@ function TicketDetail() {
   );
 }
 
-
+export default TicketDetail; 
