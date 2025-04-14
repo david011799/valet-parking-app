@@ -144,7 +144,7 @@ function Home() {
             <p><strong>Ticket:</strong> {ticket.ticketNumber}</p>
             <p><strong>Tel:</strong> {ticket.phone}</p>
             <p><strong>Estado:</strong> {ticket.status}</p>
-            <QRCodeSVG value={`http://valet-parking-400.vercel.app/ticket/${ticket.id}`} size={128} />
+            <QRCodeSVG value={`https://valet-parking-400.vercel.app/ticket/${ticket.id}`} size={128} />
             <br />
             <button onClick={() => goToTicket(ticket)}>Ver Detalles</button>
           </div>
